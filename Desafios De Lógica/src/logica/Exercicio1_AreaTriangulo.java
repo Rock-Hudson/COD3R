@@ -2,7 +2,7 @@ package logica;
 
 import java.util.Scanner;
 
-public class AreaTriangulo {
+public class Exercicio1_AreaTriangulo {
 
 	public static void main(String[] args) {
 		
