@@ -10,7 +10,7 @@ public class DoWhile {
 		
 		do {
 			
-			String op = JOptionPane.showInputDialog(null, "Digite a senha para entrar: ");
+		 op = JOptionPane.showInputDialog(null, "Digite a senha para entrar: ");
 			
 			if (!op.equalsIgnoreCase("123456")) {
 				JOptionPane.showMessageDialog(null, "Ops! acho que voce nao tem a senha!");
