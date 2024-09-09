@@ -12,7 +12,7 @@ f) Calcule o salário líquido => SL = SB – TD;
 g) Apresente os valores de: Horas trabalhadas, Salário Bruto, Desconto, Salário
 Liquido.
  */
-public class Exercicio4_CalculosSalario {
+public class Desafio4_CalculosSalario {
 	
 	public static void main(String[] args) {
 		

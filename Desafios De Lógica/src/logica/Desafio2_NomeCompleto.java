@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 // Exercicio
-public class Exercicio2_NomeCompleto {
+public class Desafio2_NomeCompleto {
 		
 	
 	

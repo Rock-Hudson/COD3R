@@ -2,7 +2,7 @@ package logica;
 
 import java.util.Scanner;
 
-public class Exercicio3_SomaDoisValores {
+public class Desafio3_SomaDoisValores {
 
 	public static void main(String[] args) {
 		
