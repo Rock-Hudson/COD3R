@@ -24,8 +24,8 @@ public class Desafio5_GastoCombustivelViagem {
 		 
 		double tempoGasto = 0;
 		double velocidadeMedia = 0;
-		double distancia = tempoGasto * velocidadeMedia;
-		double litrosUsados = distancia / 12;
+		double distancia = 0;
+		double litrosUsados = 0;
 		 
 		String tempo = JOptionPane.showInputDialog("Insira o tempo gasto na viagem:");
 		tempoGasto = Double.parseDouble(tempo);
@@ -33,10 +33,13 @@ public class Desafio5_GastoCombustivelViagem {
 		String velocidade = JOptionPane.showInputDialog("Insira a velocidade media: ");
 		velocidadeMedia = Double.parseDouble(velocidade);
 		
+		distancia += tempoGasto * velocidadeMedia;
+		
 		litrosUsados = distancia / 12;
 		
 		JOptionPane.showMessageDialog(null, "Velocidade média: " + velocidadeMedia + "\nTempo Gasto na viagem: " 
-		+ tempoGasto + "\nDistância percorrida: " + distancia + "\nLitros Usados: " + litrosUsados);
+		+ tempoGasto + "\nDistância percorrida: " + 
+				distancia + "\nLitros Usados: " + litrosUsados);
 		
 		
 		
