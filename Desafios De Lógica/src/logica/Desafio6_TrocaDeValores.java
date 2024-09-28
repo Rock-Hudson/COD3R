@@ -18,8 +18,16 @@ variável B passe a possuir o valor da variável A. Apresente os valores trocado
 		double a = Double.parseDouble(valorA);
 		
 		String valorB = JOptionPane.showInputDialog("Insira o valor " );
-		double b = Double.parseDouble(valorA);
+		double b = Double.parseDouble(valorB);
+
+		double c = 0;
 		
+		c = a;		
+		a = b;
+		b = c;
+	
+		
+		JOptionPane.showMessageDialog(null, "Valor de a: " + a + "\nvalor de b: " + b);
 		
 		
 		
