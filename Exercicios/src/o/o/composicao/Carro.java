@@ -2,17 +2,22 @@ package o.o.composicao;
 
 public class Carro {
 
-	Motor motor = new Motor();
+	
+	Motor motor = new Motor();//Instanciando motor para utilizalo nos metodos
 
-	void acelar() {
-
+	void acelerar() {
+		
 		motor.fatorDeInjecao += 0.4;
 
 	}
 
 	void frear() {
 
-		motor.fatorDeInjecao -= 0.4;
+		if(motor.fatorDeInjecao > 0.5) {
+			
+			motor.fatorDeInjecao -= 0.4;
+			
+		}
 
 	}
 
