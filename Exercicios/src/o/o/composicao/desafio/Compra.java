@@ -12,19 +12,17 @@ public class Compra {
 		this.itens.add(new Item(p, qtdade));
 
 	}
-	
-	
+
 	double obtervalorTotal() {
-		
+
 		double total = 0;
-		
-		for(Item item: itens) {
-			
-			
+
+		for (Item item : itens) {
+
 			total += item.quantidade * item.produto.preco;
-			
+
 		}
-		
+
 		return total;
 	}
 
